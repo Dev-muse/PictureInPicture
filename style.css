@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700;800;900&display=swap");
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  font-family: "Nunito Sans", sans-serif;
+  display: grid;
+  place-items: center;
+  background: linear-gradient(to left top, rgb(12, 119, 190), rgb(224, 76, 18));
+}
+
+.btn-container {
+  padding: 10px;
+  box-shadow: inset 0px 20px 4px -19px rgba(255, 255, 255, 0.7);
+  border: 2px solid #000;
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -o-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -moz-border-radius: 7px;
+}
+
+#button {
+  width: 120px;
+  text-shadow: 0px 2px 5px #000;
+  outline: none;
+  height: 70px;
+  font-size: 25px;
+  font-family: "Nunito Sans", sans-serif;
+  cursor: pointer;
+  color: #fff;
+  background: linear-gradient(to top, #696969, #575757);
+  border: 2px solid #000;
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -o-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -moz-border-radius: 7px;
+  box-shadow: inset 0px 20px 4px -19px rgba(255, 255, 255, 0.4),
+    0 12px 12px 0 rgba(0, 0, 0, 0.3);
+}
+
+#button:hover {
+  background: linear-gradient(to bottom, #696969, #575757);
+}
+#button:active {
+  transform: translateY(-2px);
+  -webkit-transform: translateY(-2px);
+  -moz-transform: translateY(-2px);
+  -ms-transform: translateY(-2px);
+  -o-transform: translateY(-2px);
+  box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.3);
+}
